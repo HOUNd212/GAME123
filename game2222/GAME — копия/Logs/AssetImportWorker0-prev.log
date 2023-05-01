@@ -1,0 +1,639 @@
+Unity Editor version:    2020.3.47f1 (5ef4f5b5e2d4)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.13.6 (Build 17G14042)
+Darwin version:          17.7.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/russell/Documents/GitHub/GAME123/GAME
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49916
+Successfully changed project path to: /Users/russell/Documents/GitHub/GAME123/GAME
+/Users/russell/Documents/GitHub/GAME123/GAME
+Using Asset Import Pipeline V2.
+Player connection [140735859368832] Host "[IP] 192.168.2.40 [Port] 0 [Flags] 2 [Guid] 2581084062 [EditorId] 2581084062 [Version] 1048832 [Id] OSXEditor(0,iMac-Aleksej.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140735859368832] Host "[IP] 192.168.2.40 [Port] 0 [Flags] 2 [Guid] 2581084062 [EditorId] 2581084062 [Version] 1048832 [Id] OSXEditor(0,iMac-Aleksej.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 127.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.47f1 (5ef4f5b5e2d4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/russell/Documents/GitHub/GAME123/GAME/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: AMD Radeon HD 6750M OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-1.68.25
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_ro
+w_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -1660684288
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56897
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.47f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001104 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 120.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 133.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2320ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1936ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (724ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.026140 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.055013 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.47f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 132.3 MB.
+
+Unloading 245 unused Assets to reduce memory usage. Loaded Objects now: 2964.
+Total: 6.530897 ms (FindLiveObjects: 0.312584 ms CreateObjectMapping: 0.155953 ms MarkObjects: 5.053627 ms  DeleteObjects: 1.006924 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Art/TileMapPalettes
+  artifactKey: Guid(6b4954ef413f139418f69683aa067c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes using Guid(6b4954ef413f139418f69683aa067c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20995b31df8210eac172ca42a1ba9c1') in 0.017178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.214834 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/trava.png
+  artifactKey: Guid(208e754f7ebe24cb0ad2292a49671f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/trava.png using Guid(208e754f7ebe24cb0ad2292a49671f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816bf5169a6f9a770b5feebcaec12e02') in 0.139194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.938687 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png
+  artifactKey: Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png using Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416dee572ec10db1d56d9c2466447b7b') in 0.013212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.436647 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone.png
+  artifactKey: Guid(9d6cdb6f3847243cb8f9160d229834df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone.png using Guid(9d6cdb6f3847243cb8f9160d229834df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c581b53dcdf7ab32f154c763f0cd5') in 0.013722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 493.377964 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab
+  artifactKey: Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab using Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d483761e3eef13fb46e064b6580e50') in 0.674104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.746483 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab
+  artifactKey: Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab using Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c0b560c1b4c7143a72c1a41b5c6382') in 0.411713 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2403ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (198ms)
+		EndReloadAssembly (1948ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (746ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 132.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 5.854170 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.173014 ms MarkObjects: 5.149480 ms  DeleteObjects: 0.213971 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.757880 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab
+  artifactKey: Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab using Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b853661dc2973c033319015a0c14cb6') in 0.562979 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2066ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1684ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (602ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3003.
+Total: 4.892353 ms (FindLiveObjects: 0.278065 ms CreateObjectMapping: 0.138546 ms MarkObjects: 4.278729 ms  DeleteObjects: 0.195624 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 282.712215 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/trava.asset
+  artifactKey: Guid(59128056f84ed483c905bc421cd8947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/trava.asset using Guid(59128056f84ed483c905bc421cd8947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5307292c8ce1ff65c80c91f1af2f06fc') in 0.153169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.764100 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone.asset
+  artifactKey: Guid(21b14b47740c94ab29a25bd811262262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone.asset using Guid(21b14b47740c94ab29a25bd811262262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa60bf67f10446b02d2bf13b0890cd2') in 0.037262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.658685 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset
+  artifactKey: Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset using Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce82540e79c73ba66b100818d396f462') in 0.087628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.186829 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab
+  artifactKey: Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab using Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6effda7a90637aa13dbda8a9b86a08') in 0.425530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 244.359295 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone2.png
+  artifactKey: Guid(c626a176b42dc48d0a182537ccc11dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone2.png using Guid(c626a176b42dc48d0a182537ccc11dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cf42ae57ea65e0a16ad20bd05b0471') in 0.078305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.761059 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone2.asset
+  artifactKey: Guid(480f00b80c76645539cefd8b17246d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/stone2.asset using Guid(480f00b80c76645539cefd8b17246d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868ad09d0b0e856c45bcf248ecef78ce') in 0.019456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1097.727036 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset
+  artifactKey: Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset using Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7ff0cc52128b6781cb372f6053697') in 0.063698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png
+  artifactKey: Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png using Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb0ca708c092b61e44a54ac1b0e61b8') in 0.064632 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3023ms)
+		BeginReloadAssembly (509ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (2385ms)
+			LoadAssemblies (819ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (704ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3022.
+Total: 4.870328 ms (FindLiveObjects: 0.267108 ms CreateObjectMapping: 0.131349 ms MarkObjects: 4.251337 ms  DeleteObjects: 0.218983 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 898.387877 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset
+  artifactKey: Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset using Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d5931c151a6f4529a5682e9b725736') in 0.162912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png
+  artifactKey: Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png using Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988bc4fb3f95df9901a30061eff7cb9b') in 0.168430 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2124ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (1766ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (647ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3038.
+Total: 4.550496 ms (FindLiveObjects: 0.236316 ms CreateObjectMapping: 0.122874 ms MarkObjects: 4.015909 ms  DeleteObjects: 0.174011 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.000 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2001ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1707ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (619ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3052.
+Total: 5.214359 ms (FindLiveObjects: 0.259662 ms CreateObjectMapping: 0.124965 ms MarkObjects: 4.599574 ms  DeleteObjects: 0.228614 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2079ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (1762ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (664ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (589ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 138.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3066.
+Total: 5.310102 ms (FindLiveObjects: 0.252344 ms CreateObjectMapping: 0.124393 ms MarkObjects: 4.750509 ms  DeleteObjects: 0.181327 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1509.507476 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset
+  artifactKey: Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset using Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fa33389ccc97ec1dfe60ec4ade0119') in 0.152865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.727717 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetAlienRules.asset
+  artifactKey: Guid(1032823b40fd7ef4ea6f06b3e6c5c860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetAlienRules.asset using Guid(1032823b40fd7ef4ea6f06b3e6c5c860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239989c04a72b97ddff52b1c59912102') in 0.796347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab
+  artifactKey: Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetGamekit.prefab using Guid(828ab588c2d0159468fbefcc1189616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0b26c744de187025eb6fec44b38967') in 0.228018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetRockRules.asset
+  artifactKey: Guid(c0a72b2f2922a4241ba1735d8082c260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesetRockRules.asset using Guid(c0a72b2f2922a4241ba1735d8082c260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a3c036df87a05326c47e1f6c9ba46e') in 0.010332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 601.796411 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset
+  artifactKey: Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.asset using Guid(007aea0cc1c1f4bb2a47902ec16caff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b6ade667e8948377c09b71bf2473ad') in 0.021197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png
+  artifactKey: Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/TileMapPalettes/Tileset/TilesRock/zemlya.png using Guid(c117a3d3758884d5bafd67fff086b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c0adefa7588d21979cb0bcd3aaefd1') in 0.071735 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
